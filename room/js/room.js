@@ -23,7 +23,7 @@ function close(){
 /* Json 불러오기 */
 
 function getAllPost(){
-  const URL = '../db.json'
+  const URL = 'https://littlemac08.github.io/teamProject_finally/room/db.json'
   fetch(URL)
   .then(response => response.json())
   .then((list) => list.data)
