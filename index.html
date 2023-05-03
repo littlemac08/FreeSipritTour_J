@@ -367,13 +367,13 @@
             <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c96ba035aec7d7f639e3621cf6105c9c"></script>
             <div id="map" style="width:100%;height:380px;"></div>
             <script>
-              let kakao = window.kakao;
-              let container = document.getElementById('map');
-              let options = {
+              var kakao = window.kakao;
+              var container = document.getElementById('map');
+              var options = {
                 center: new kakao.maps.LatLng(37.500130, 127.029046),
                 level: 3
               };
-              let map = new kakao.maps.Map(container, options);
+              var map = new kakao.maps.Map(container, options);
             </script>
             <!-- map API (Daum) END -->
             <div class="map_link">
