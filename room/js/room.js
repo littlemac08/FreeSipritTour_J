@@ -23,7 +23,7 @@ function close(){
 /* Json 불러오기 */
 
 function getAllPost(){
-  const URL = 'db.json'
+  const URL = '../db.json'
   fetch(URL)
   .then(response => response.json())
   .then((list) => list.data)
