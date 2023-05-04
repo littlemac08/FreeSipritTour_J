@@ -445,7 +445,17 @@ section {
   }
 
 }
-
-@media (max-width:500px) {
-
+@media (max-width:393px) {
+  .state button:last-child {
+    margin-top:10px
+  }
+  .popup {
+    height:550px;
+  }
+  .popup h2 {
+    margin-left:150px;
+  }
+  .popup_type {
+    margin:30px;
+  }
 }
