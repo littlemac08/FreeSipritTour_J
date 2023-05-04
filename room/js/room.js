@@ -142,6 +142,6 @@ minSearchBtn.onclick=function(){
 };
 
 
-searchInput.addEventListener('keypress', event =>{
+minSearchInput.addEventListener('keypress', event =>{
   event.key === "Enter" && onAdd()
 });
