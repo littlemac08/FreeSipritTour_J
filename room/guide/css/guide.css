@@ -153,14 +153,24 @@ section {
     line-height:1.5;
 }
 /* rooms_info end */
-/* map start */
 
-/* map end */
-/* rooms_review start */
-
-/* rooms_review end */
-/* main end */
+/* Media Query */
+@media (max-width:900px) {
+  .swiper-buttons {
+      display:none;
+  }
+  .slide_down_icon {
+      display:none;
+  }
+  .rooms_guide {
+    display:block;
+    line-height:1.5;
+}
+}
 
 @media (max-width:393px){
+  .rooms_guide {
+    text-align:center;
+  }
   .br {display:block;}
 }
