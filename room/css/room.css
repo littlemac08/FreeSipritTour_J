@@ -392,25 +392,27 @@ section {
     height:24px;
   }
 }
-
 @media (max-width:500px) {
   .inner {max-width:650px;}
 
-  .hotel_img img {
-    height:150px;
-  }
   .best_hotel_img {
     width:100px;
     height:100px;
   }
 
-  .popup {
-    height:460px;
+  .hotel {
+    padding-top:20px;
   }
+  .hotel_img {
+    height:auto;
+  }
+  .hotel_img img {
+    height:150px;
+  }
+
   .popup h2 {
     margin-left:200px;
-  }
-  
+  }  
   .popup_type_title {
     font-size:16px;
     margin:10px auto;
@@ -423,6 +425,9 @@ section {
     text-align:center;
     margin-right:10px;
   }
+  .country button:last-child {
+    margin-top:10px
+  }
 
   .popup_button {
     height:0;
@@ -430,20 +435,11 @@ section {
   .popup_button button {
     width:80px;
     height:40px;
-    margin-top:20px;
+    margin-top:20p
   }
   .popup_button .filter_submit {
     margin-right:20px;
   }
-
-  .hotel {
-    padding-top:20px;
-  }
-
-  .hotel_img {
-    height:auto;
-  }
-
 }
 @media (max-width:393px) {
   .state button:last-child {
