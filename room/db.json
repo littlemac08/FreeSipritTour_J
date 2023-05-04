@@ -84,15 +84,6 @@
     },
     {
       "class":10,
-      "img":"img/alpinajpg",
-      "name":"알피나 루체른",
-      "located":"스위스,",
-      "area":"Luzern",
-      "price":"142,000원",
-      "price_sale":"184,000원"
-    },
-    {
-      "class":11,
       "img":"img/circusHotel.jpg",
       "name":"The Circus Hotel",
       "located":"독일",
