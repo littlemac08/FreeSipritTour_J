@@ -4,16 +4,16 @@
       "class":1,
       "img":"img/Alexander.jpg",
       "name":"Alexander lnn",
-      "usa":"미국",
+      "located":"미국,",
       "area":"Auckland",
       "price":"153,114원",
       "price_sale":"156,238원"
     },
     {
       "class":2,
-      "img":"img/Ellerbeck_Bed01.webp",
+      "img":"img/Ellerbeck_Bed.webp",
       "name":"Ellerbeck Bed & Breakfast",
-      "usa":"미국",
+      "located":"미국,",
       "area":"Salt Lake city",
       "price":"316,396원",
       "price_sale":"354,296원"
@@ -22,35 +22,35 @@
       "class":3,
       "img":"img/PrinceSmartInn.jpg",
       "name":"Prince Smart Inn",
-      "japan":"일본",
+      "located":"일본,",
       "area":"Hakata",
       "price":"153,153원",
       "price_sale":"156,270원"
     },
     {
       "class":4,
-      "img":"img/grandehakata.jpg",
-      "name":"Grande Hakata",
-      "japan":"일본",
-      "area":"Hakata",
-      "price":"115,024원",
-      "price_sale":"153,365원"
+      "img":"img/shillaStay.jpg",
+      "name":"신라스테이",
+      "located":"한국",
+      "area":"여수",
+      "price":"110,000원",
+      "price_sale":"191,400원"
     },
     {
       "class":5,
-      "img":"img/ninetree.jpg",
-      "name":"나인트리 프리미어 호텔",
-      "located":"한국,",
-      "seoul":"서울 판교",
-      "price":"174,048원",
-      "price_sale":"177,600원"
+      "img":"img/marinaBaySands.jpg",
+      "name":"마리나 베이 샌즈",
+      "located":"싱가포르",
+      "area":"싱가포르",
+      "price":"153,000원",
+      "price_sale":"156,270원"
     },
     {
       "class":6,
       "img":"img/nanta.jpg",
       "name":"호텔난타 제주",
       "located":"한국,",
-      "jeju":"제주",
+      "area":"제주",
       "price":"141,120원",
       "price_sale":"144,000원"
     },
@@ -59,54 +59,46 @@
       "img":"img/ninetree.jpg",
       "name":"나인트리 프리미어 호텔",
       "located":"한국,",
-      "seoul":"서울 판교",
+      "area":"성남 판교",
       "price":"174,048원",
       "price_sale":"177,600원"
     },
     {
       "class":8,
-      "img":"img/millitopia.jpg",
-      "name":"밀리토피아 호텔",
-      "located":"한국,",
-      "seoul":"성남 위례",
-      "price":"141,120원",
-      "price_sale":"144,000원"
+      "img":"img/PrinceSmartInn.jpg",
+      "name":"Prince Smart Inn",
+      "located":"일본",
+      "area":"Hakata",
+      "price":"143,153원",
+      "price_sale":"156,270원"
+
     },
     {
       "class":9,
-      "img":"img/millitopia.jpg",
-      "name":"밀리토피아 호텔",
+      "img":"img/midcity.jpg",
+      "name":"호텔 미드시티",
       "located":"한국,",
-      "seoul":"성남 위례",
-      "price":"141,120원",
-      "price_sale":"144,000원"
+      "area":"서울 명동",
+      "price":"110,000원",
+      "price_sale":"141,120원"
     },
     {
       "class":10,
-      "img":"img/millitopia.jpg",
-      "name":"밀리토피아 호텔",
-      "located":"한국,",
-      "seoul":"성남 위례",
-      "price":"141,120원",
-      "price_sale":"144,000원"
+      "img":"img/alpinajpg",
+      "name":"알피나 루체른",
+      "located":"스위스,",
+      "area":"Luzern",
+      "price":"142,000원",
+      "price_sale":"184,000원"
     },
     {
       "class":11,
-      "img":"img/millitopia.jpg",
-      "name":"밀리토피아 호텔",
-      "located":"한국,",
-      "seoul":"성남 위례",
-      "price":"141,120원",
-      "price_sale":"144,000원"
-    },
-    {
-      "class":12,
-      "img":"img/millitopia.jpg",
-      "name":"밀리토피아 호텔",
-      "located":"한국,",
-      "seoul":"성남 위례",
-      "price":"141,120원",
-      "price_sale":"144,000원"
+      "img":"img/circusHotel.jpg",
+      "name":"The Circus Hotel",
+      "located":"독일",
+      "area":"베를린",
+      "price":"153,285원",
+      "price_sale":"156,238원"
     }
   ]
 }
