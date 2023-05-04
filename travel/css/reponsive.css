@@ -326,7 +326,7 @@ position: relative;
     margin-top: 50px;
 }
 .sec3_below_img_wrap {
-    width: 420px;
+    width: 100%;
     margin: auto;
     margin-top: 100px;
     flex-direction: column;
@@ -338,6 +338,7 @@ position: relative;
 .sec3_below_img2 {
     width: 100%;
     margin-top: 50px;
+    margin:0;
 }
 .sec3_below_txt_p {
     width:100%;
@@ -630,4 +631,3 @@ footer {
         margin-top: 600px;
     }
 }
-
