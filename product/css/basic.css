@@ -935,8 +935,20 @@ footer {
     .top_right {
     display:none;
     }
+        .top_left {
+        display:flex;
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
 }
 @media (max-width:729px) {
+        .top_left {
+        display:flex;
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
     .main_gnb > li > a {
         font-size:14px;
     }
