@@ -629,7 +629,7 @@ header {
                 text-align:left;
                 background:#fff;
                 transition:.4s;
-                z-index:3;
+                z-index:9999;
             }
             .main_gnb_M.active {
                 left:0;
