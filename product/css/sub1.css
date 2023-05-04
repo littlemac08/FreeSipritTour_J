@@ -1,8 +1,19 @@
 @charset "UTF-8";
+@font-face {
+  font-family:'GmarketSansLight';
+  src:url("../font/GmarketSansTTFLight.ttf") format('truetype');
+}
+@font-face {
+  font-family:'GmarketSansMedium';
+  src:url("../font/GmarketSansTTFMedium.ttf") format('truetype');
+}
+@font-face {
+  font-family:'GmarketSansBold';
+  src:url("../font/GmarketSansTTFBold.ttf") format('truetype');
+}
 
 body {
-  /* font-family:"G마켓 산스 TTF"; */
-  font-weight:400;
+  font-family:"GmarketSansMedium";
   font-size:17px;
 }
 
@@ -52,17 +63,14 @@ main {
   line-height:30px;
 }
 
-.categorys li:hover {
-  font-weight:700;
+.categorys li:hover, .categorys li a.active {
+  font-family:'GmarketSansBold';
   letter-spacing:-0.07px;  /* 사이즈가 변해도 다른 li들이 밀리지않음. 근데 이래도 되나 */
 }
 .categorys li a {
   color:#333;
 }
-.categorys li a.active {
-  font-weight:700;
-  letter-spacing:-0.07px;
-}
+
 /* sel_category */
 .sel_category {
   padding:25px 15px 60px 15px;
@@ -201,8 +209,8 @@ select:focus {
 
 .content_text p {
   margin-bottom:12px;
+  font-family:"GmarketSansLight";
   cursor:default;
-  font-weight:300;
 }
 .content_text .country {
   cursor:pointer;
@@ -213,9 +221,11 @@ select:focus {
 }
 .content_text .hash_tag a{
   color:#47B1FE;
+  font-family:'GmarketSansLight';
 }
 .content_text .hash_tag a:hover {
-  letter-spacing:0.03px;
+  font-family:'GmarketSansMedium';
+  letter-spacing:-0.07px;
 }
 .content_text .booking_btn {
   display:none;
