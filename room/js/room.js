@@ -131,13 +131,13 @@ btnReset.addEventListener('click',()=>{
 
 
 /* search button */
-const searchInput =document.querySelector('.min_search');
-const searchBtn = document.querySelector('.min_search button');
+const minSearchInput =document.querySelector('.min_search');
+const minSearchBtn = document.querySelector('.min_search button');
 
-searchBtn.onclick=function(){
-  if(searchInput.value !=''){
-    searchInput.value='';
-    searchInput.focus();
+minSearchBtn.onclick=function(){
+  if(minSearchInput.value !=''){
+    minSearchInput.value='';
+    minSearchInput.focus();
   }
 };
 
