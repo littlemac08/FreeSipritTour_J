@@ -945,10 +945,22 @@ footer {
         margin:0 1%;
         font-size:14px;
     }
+        .top_left {
+        display:flex;
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
 }
 @media (max-width:840px) {
     .top_right {
     display:none;
+    }
+        .top_left {
+        display:flex;
+        width:100%;
+        justify-content:center;
+        align-items:center;
     }
 }
 @media (max-width:650px) {
