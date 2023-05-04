@@ -31,7 +31,7 @@
       "class":4,
       "img":"img/shillaStay.jpg",
       "name":"신라스테이",
-      "located":"한국",
+      "located":"한국,",
       "area":"여수",
       "price":"110,000원",
       "price_sale":"191,400원"
@@ -40,15 +40,15 @@
       "class":5,
       "img":"img/marinaBaySands.jpg",
       "name":"마리나 베이 샌즈",
-      "located":"싱가포르",
-      "area":"싱가포르",
+      "located":"싱가포르,",
+      "area":"싱가포르 수도",
       "price":"153,000원",
       "price_sale":"156,270원"
     },
     {
       "class":6,
       "img":"img/nanta.jpg",
-      "name":"호텔난타 제주",
+      "name":"호텔난타 제주,",
       "located":"한국,",
       "area":"제주",
       "price":"141,120원",
@@ -67,7 +67,7 @@
       "class":8,
       "img":"img/PrinceSmartInn.jpg",
       "name":"Prince Smart Inn",
-      "located":"일본",
+      "located":"일본,",
       "area":"Hakata",
       "price":"143,153원",
       "price_sale":"156,270원"
@@ -76,7 +76,7 @@
     {
       "class":9,
       "img":"img/midcity.jpg",
-      "name":"호텔 미드시티",
+      "name":"호텔 미드시티,",
       "located":"한국,",
       "area":"서울 명동",
       "price":"110,000원",
@@ -86,7 +86,7 @@
       "class":10,
       "img":"img/circusHotel.jpg",
       "name":"The Circus Hotel",
-      "located":"독일",
+      "located":"독일,",
       "area":"베를린",
       "price":"153,285원",
       "price_sale":"156,238원"
