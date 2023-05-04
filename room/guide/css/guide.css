@@ -135,11 +135,9 @@ section {
     color:#333;
 }
 .rooms_info .check, .rooms_info h2 {
+    font-size:24px;
     font-weight:bold;
     color:#BB2649;
-}
-.rooms_info > p {
-    font-size:16px;
 }
 .rooms_explanation {
     flex:1;
