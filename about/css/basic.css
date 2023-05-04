@@ -946,6 +946,11 @@ footer {
         font-size:14px;
     }
 }
+@media (max-width:840px) {
+    .top_right {
+    display:none;
+    }
+}
 @media (max-width:650px) {
     .top_left {
         display:flex;
