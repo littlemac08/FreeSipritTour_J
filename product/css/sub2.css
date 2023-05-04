@@ -202,6 +202,7 @@ select:focus {
 .content_text p {
   margin-bottom:12px;
   cursor:default;
+  font-weight:300
 }
 .content_text .country {
   cursor:pointer;
@@ -216,7 +217,7 @@ select:focus {
 }
 .content_text .hash_tag a:hover {
   font-weight:400;
-  letter-spacing:-0.07px;
+  letter-spacing:0.03px;
 }
 .content_text .booking_btn {
   display:none;
