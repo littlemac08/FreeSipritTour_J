@@ -244,7 +244,7 @@ position: relative;
 
 @media (max-width:800px){
     .img-inner {
-        height:60vh;
+        height:40vh;
     }
     .sec1 {
         width: 650px;        
