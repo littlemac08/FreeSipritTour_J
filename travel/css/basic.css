@@ -766,6 +766,7 @@ footer {
 .footer_gnb {
     border-right:1px solid #ccc;
     font-size:13px;
+    flex:1;
 }
 .footer_gnb:last-child {
     border:none;
