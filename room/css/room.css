@@ -184,7 +184,7 @@ section {
     margin-right:10px;
   }
   
-  button.active {
+  .popup_type button.active {
     border:2px solid #BB2649;
     color:#eee;
     background:#BB2649;
